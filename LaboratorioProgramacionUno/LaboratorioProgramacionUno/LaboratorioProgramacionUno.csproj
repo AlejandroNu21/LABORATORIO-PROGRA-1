@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DOMINIO\Loguin.cs" />
+    <Compile Include="VISTA\FrmOperaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA\FrmOperaciones.Designer.cs">
+      <DependentUpon>FrmOperaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="NEGOCIO\ClsLoguin.cs" />
     <Compile Include="VISTA\FrmLoguin.cs">
       <SubType>Form</SubType>
@@ -62,6 +68,9 @@
     <Compile Include="VISTA\FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VISTA\FrmOperaciones.resx">
+      <DependentUpon>FrmOperaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
