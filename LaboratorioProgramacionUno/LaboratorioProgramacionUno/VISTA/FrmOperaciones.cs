@@ -136,6 +136,13 @@ namespace LaboratorioProgramacionUno.VISTA
 
                 if (Convert.ToInt32(txtPrecProd.Text) <= 50) {
                     lblTotalPa.Text = lblTotsdIincl.Text;
+
+                } else if (Convert.ToInt32(txtPrecProd.Text) > 50 && <= 100) {
+                    double resta;
+                    resta = Convert.ToInt32(lblTotsdIincl.Text) - Convert.ToInt32(lblTotsdIincl.Text);
+
+
+
                 }
             
             }
