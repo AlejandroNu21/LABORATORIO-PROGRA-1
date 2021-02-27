@@ -17,8 +17,11 @@ namespace LaboratorioProgramacionUno.VISTA
             InitializeComponent();
         }
 
+        public String UsuarioEstado;
         private void FrmOperaciones_Load(object sender, EventArgs e)
         {
+            LblUsuario.Text = UsuarioEstado;
+
                 DtgvTabla.Rows.Add("SI EL PRODUCTO TIENE UN PRECIO MENOR O IGUAL A 50 NO TENDRÁ DESCUENTO", "<=50");
                 DtgvTabla.Rows.Add("SI EL PRODUCTO TIENE UN PRECIO MAYOR A 50 Y MENOR QUE 100, TENDRÁ UN DESCUENTO DEL 0.05", ">50 and <100 ");
                 DtgvTabla.Rows.Add("SI EL PRODUCTO TIENE UN PRECIO MAYOR O IGUAL A 100 Y MENOR QUE 101, TENDRÁ UN DESCUENTO DEL 0.10", ">=100 and <101");
@@ -122,8 +125,8 @@ namespace LaboratorioProgramacionUno.VISTA
 
             try
             {
-                int multiplica;
-                multiplica = Convert.ToInt32(txtPrecProd.Text) * Convert.ToInt32(txtCant.Text);
+                double multiplica;
+                multiplica = Convert.ToDouble(txtPrecProd.Text) * Convert.ToDouble(txtCant.Text);
                 lblTotSinIva.Text = multiplica.ToString();
 
                 double multiplicar;
@@ -195,6 +198,11 @@ namespace LaboratorioProgramacionUno.VISTA
 
         private void LblMostProd_Click(object sender, EventArgs e)
         {
+        }
+
+        private void LblUsuario_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

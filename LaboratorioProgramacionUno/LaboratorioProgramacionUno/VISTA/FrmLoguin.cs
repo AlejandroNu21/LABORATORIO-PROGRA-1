@@ -37,8 +37,10 @@ namespace LaboratorioProgramacionUno
             {
 
                 MessageBox.Show("Bienvenido" );
-                FrmMenu frm = new FrmMenu();
+                FrmOperaciones frm = new FrmOperaciones();
+                frm.UsuarioEstado = txtUsuario.Text;
                 frm.Show();
+                this.Hide();
           
             }
             else {

@@ -73,7 +73,7 @@ namespace LaboratorioProgramacionUno.VISTA
             // lblUsuac
             // 
             this.lblUsuac.AutoSize = true;
-            this.lblUsuac.Location = new System.Drawing.Point(662, 8);
+            this.lblUsuac.Location = new System.Drawing.Point(715, 9);
             this.lblUsuac.Name = "lblUsuac";
             this.lblUsuac.Size = new System.Drawing.Size(76, 13);
             this.lblUsuac.TabIndex = 1;
@@ -286,11 +286,12 @@ namespace LaboratorioProgramacionUno.VISTA
             // LblUsuario
             // 
             this.LblUsuario.AutoSize = true;
-            this.LblUsuario.Location = new System.Drawing.Point(681, 29);
+            this.LblUsuario.Location = new System.Drawing.Point(756, 29);
             this.LblUsuario.Name = "LblUsuario";
             this.LblUsuario.Size = new System.Drawing.Size(35, 13);
             this.LblUsuario.TabIndex = 24;
             this.LblUsuario.Text = "label1";
+            this.LblUsuario.Click += new System.EventHandler(this.LblUsuario_Click);
             // 
             // lblTABLATITULO
             // 
