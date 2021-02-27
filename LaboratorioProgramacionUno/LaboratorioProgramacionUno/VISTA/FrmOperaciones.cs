@@ -127,31 +127,74 @@ namespace LaboratorioProgramacionUno.VISTA
                 lblTotSinIva.Text = multiplica.ToString();
 
                 double multiplicar;
-                multiplicar = Convert.ToInt32(txtPrecProd.Text) * Convert.ToInt32(txtBIva.Text);
+                multiplicar = Convert.ToDouble(txtPrecProd.Text) * Convert.ToDouble(txtBIva.Text);
                 lblIvaaAg.Text = multiplicar.ToString();
 
                 double suma;
-                suma = Convert.ToInt32(lblTotSinIva.Text) + Convert.ToInt32(lblIvaaAg.Text);
+                suma = Convert.ToDouble(lblTotSinIva.Text) + Convert.ToDouble(lblIvaaAg.Text);
                 lblTotsdIincl.Text = suma.ToString();
 
-                if (Convert.ToInt32(txtPrecProd.Text) <= 50) {
+                if (Convert.ToDouble(txtPrecProd.Text) <= 50) {
                     lblTotalPa.Text = lblTotsdIincl.Text;
 
-                } else if (Convert.ToInt32(txtPrecProd.Text) > 50 && <= 100) {
+                }
+                else if (Convert.ToDouble(txtPrecProd.Text) > 50)
+                {
                     double resta;
-                    resta = Convert.ToInt32(lblTotsdIincl.Text) - Convert.ToInt32(lblTotsdIincl.Text);
+                    resta = Convert.ToDouble(lblTotsdIincl.Text) - Convert.ToDouble(lblTotsdIincl.Text)*0.05;
+                    lblTotalPa.Text = resta.ToString();
+                    {if (Convert.ToDouble(txtPrecProd.Text) < 100);
 
-
+                    double restar;
+                    restar = Convert.ToDouble(lblTotsdIincl.Text) - Convert.ToDouble(lblTotsdIincl.Text) * 0.05;
+                        lblTotalPa.Text = restar.ToString(); 
+                    }
 
                 }
-            
+                if (Convert.ToDouble(txtPrecProd.Text) >= 100)
+                {
+                    double resta;
+                    resta = Convert.ToDouble(lblTotsdIincl.Text) - Convert.ToDouble(lblTotsdIincl.Text) * 0.10;
+                    lblTotalPa.Text = resta.ToString();
+                    {
+                        if ((Convert.ToDouble(txtPrecProd.Text) < 101)) ;
+
+                        double restar;
+                        restar = Convert.ToDouble(lblTotsdIincl.Text) - Convert.ToDouble(lblTotsdIincl.Text) * 0.10;
+                        lblTotalPa.Text = restar.ToString();
+                    }
+                }
+                if (Convert.ToDouble(txtPrecProd.Text) >= 101)
+                {
+                    double resta;
+                    resta = Convert.ToDouble(lblTotsdIincl.Text) - Convert.ToDouble(lblTotsdIincl.Text) * 0.20;
+                    lblTotalPa.Text = resta.ToString();
+                    {
+                        if ((Convert.ToDouble(txtPrecProd.Text) < 150)) ;
+
+                        double restar;
+                        restar = Convert.ToDouble(lblTotsdIincl.Text) - Convert.ToDouble(lblTotsdIincl.Text) * 0.20;
+                        lblTotalPa.Text = restar.ToString();
+                    }
+                }
+                if (Convert.ToDouble(txtPrecProd.Text) >150)
+                {
+                    double resta;
+                    resta = Convert.ToDouble(lblTotsdIincl.Text) - Convert.ToDouble(lblTotsdIincl.Text) * 0.50;
+                    lblTotalPa.Text = resta.ToString();
+                }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 MessageBox.Show("Se ha ingresado un dato incorrecto, intente nuevamente.");
 
             }
+        }
+
+
+        private void LblMostProd_Click(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -54,6 +54,7 @@ namespace LaboratorioProgramacionUno.VISTA
             this.lblIVA = new System.Windows.Forms.Label();
             this.LblUsuario = new System.Windows.Forms.Label();
             this.lblTABLATITULO = new System.Windows.Forms.Label();
+            this.LblMostProd = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DtgvTabla)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,41 +82,45 @@ namespace LaboratorioProgramacionUno.VISTA
             // lblTotalPa
             // 
             this.lblTotalPa.AutoSize = true;
+            this.lblTotalPa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPa.Location = new System.Drawing.Point(715, 413);
             this.lblTotalPa.Name = "lblTotalPa";
-            this.lblTotalPa.Size = new System.Drawing.Size(35, 13);
+            this.lblTotalPa.Size = new System.Drawing.Size(15, 24);
             this.lblTotalPa.TabIndex = 43;
-            this.lblTotalPa.Text = "label4";
+            this.lblTotalPa.Text = ".";
             this.lblTotalPa.Click += new System.EventHandler(this.lblTotalPa_Click);
             // 
             // lblTotsdIincl
             // 
             this.lblTotsdIincl.AutoSize = true;
+            this.lblTotsdIincl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotsdIincl.Location = new System.Drawing.Point(715, 376);
             this.lblTotsdIincl.Name = "lblTotsdIincl";
-            this.lblTotsdIincl.Size = new System.Drawing.Size(35, 13);
+            this.lblTotsdIincl.Size = new System.Drawing.Size(15, 24);
             this.lblTotsdIincl.TabIndex = 42;
-            this.lblTotsdIincl.Text = "label3";
+            this.lblTotsdIincl.Text = ".";
             this.lblTotsdIincl.Click += new System.EventHandler(this.lblTotsdIincl_Click);
             // 
             // lblIvaaAg
             // 
             this.lblIvaaAg.AutoSize = true;
+            this.lblIvaaAg.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIvaaAg.Location = new System.Drawing.Point(715, 339);
             this.lblIvaaAg.Name = "lblIvaaAg";
-            this.lblIvaaAg.Size = new System.Drawing.Size(35, 13);
+            this.lblIvaaAg.Size = new System.Drawing.Size(15, 24);
             this.lblIvaaAg.TabIndex = 41;
-            this.lblIvaaAg.Text = "label2";
+            this.lblIvaaAg.Text = ".";
             this.lblIvaaAg.Click += new System.EventHandler(this.lblIvaaAg_Click);
             // 
             // lblTotSinIva
             // 
             this.lblTotSinIva.AutoSize = true;
-            this.lblTotSinIva.Location = new System.Drawing.Point(715, 292);
+            this.lblTotSinIva.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotSinIva.Location = new System.Drawing.Point(714, 287);
             this.lblTotSinIva.Name = "lblTotSinIva";
-            this.lblTotSinIva.Size = new System.Drawing.Size(35, 13);
+            this.lblTotSinIva.Size = new System.Drawing.Size(15, 24);
             this.lblTotSinIva.TabIndex = 40;
-            this.lblTotSinIva.Text = "label1";
+            this.lblTotSinIva.Text = ".";
             this.lblTotSinIva.Click += new System.EventHandler(this.lblTotSinIva_Click);
             // 
             // lblT
@@ -298,11 +303,22 @@ namespace LaboratorioProgramacionUno.VISTA
             this.lblTABLATITULO.Text = "TABLA DE DESCUENTOS";
             this.lblTABLATITULO.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // LblMostProd
+            // 
+            this.LblMostProd.AutoSize = true;
+            this.LblMostProd.Location = new System.Drawing.Point(640, 245);
+            this.LblMostProd.Name = "LblMostProd";
+            this.LblMostProd.Size = new System.Drawing.Size(49, 13);
+            this.LblMostProd.TabIndex = 45;
+            this.LblMostProd.Text = "LAPTOP";
+            this.LblMostProd.Click += new System.EventHandler(this.LblMostProd_Click);
+            // 
             // FrmOperaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(870, 483);
+            this.Controls.Add(this.LblMostProd);
             this.Controls.Add(this.lblTotalPa);
             this.Controls.Add(this.lblTotsdIincl);
             this.Controls.Add(this.lblIvaaAg);
@@ -362,5 +378,6 @@ namespace LaboratorioProgramacionUno.VISTA
         private System.Windows.Forms.Label lblIVA;
         private System.Windows.Forms.Label LblUsuario;
         private System.Windows.Forms.Label lblTABLATITULO;
+        private System.Windows.Forms.Label LblMostProd;
     }
 }
