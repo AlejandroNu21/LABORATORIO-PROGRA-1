@@ -1,4 +1,5 @@
-﻿using LaboratorioProgramacionUno.DOMINIO;
+﻿using LaboratorioProgramacionUno.DAO;
+using LaboratorioProgramacionUno.DOMINIO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,16 +10,18 @@ namespace LaboratorioProgramacionUno.NEGOCIO
 {
     class ClsLoguin
     {
-        
+        ClsListaUsuarios cls = new ClsListaUsuarios();
 
         public int acceso(Loguin log) {
 
             int estado = 0;
-            if (log.Usuario.Equals("Carlos")&& log.Password.Equals("123" )) {
+            for (int i=0;i< cls.user.Length;i++) { 
+            if (log.Usuario.Equals(cls.user[i])&& log.Password.Equals(cls.pass[i])) {
               
                 
                 estado = 1;
 
+            }
             }
             return estado;
         }

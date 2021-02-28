@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\ClsListaUsuarios.cs" />
     <Compile Include="DOMINIO\Loguin.cs" />
     <Compile Include="NEGOCIO\ClsLoguin.cs" />
     <Compile Include="VISTA\FrmLoguin.cs">
