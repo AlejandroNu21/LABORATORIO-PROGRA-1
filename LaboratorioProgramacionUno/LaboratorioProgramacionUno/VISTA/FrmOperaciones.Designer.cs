@@ -165,10 +165,12 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // txtNomPro
             // 
+            this.txtNomPro.Enabled = false;
             this.txtNomPro.Location = new System.Drawing.Point(177, 285);
             this.txtNomPro.Name = "txtNomPro";
             this.txtNomPro.Size = new System.Drawing.Size(208, 20);
             this.txtNomPro.TabIndex = 35;
+            this.txtNomPro.Text = "LAPTOP";
             this.txtNomPro.TextChanged += new System.EventHandler(this.txtNomPro_TextChanged);
             // 
             // bttnCalcular
@@ -237,10 +239,12 @@ namespace LaboratorioProgramacionUno.VISTA
             this.txtBIva.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtBIva.Enabled = false;
             this.txtBIva.Location = new System.Drawing.Point(177, 238);
             this.txtBIva.Name = "txtBIva";
             this.txtBIva.Size = new System.Drawing.Size(208, 20);
             this.txtBIva.TabIndex = 29;
+            this.txtBIva.Text = "0.13";
             this.txtBIva.TextChanged += new System.EventHandler(this.txtBIva_TextChanged);
             // 
             // lblCant
