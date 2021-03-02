@@ -72,6 +72,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblUsuac
             // 
+            this.lblUsuac.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUsuac.AutoSize = true;
             this.lblUsuac.Location = new System.Drawing.Point(715, 9);
             this.lblUsuac.Name = "lblUsuac";
@@ -81,6 +84,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblTotalPa
             // 
+            this.lblTotalPa.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTotalPa.AutoSize = true;
             this.lblTotalPa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPa.Location = new System.Drawing.Point(715, 413);
@@ -92,6 +98,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblTotsdIincl
             // 
+            this.lblTotsdIincl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTotsdIincl.AutoSize = true;
             this.lblTotsdIincl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotsdIincl.Location = new System.Drawing.Point(715, 376);
@@ -103,6 +112,7 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblIvaaAg
             // 
+            this.lblIvaaAg.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblIvaaAg.AutoSize = true;
             this.lblIvaaAg.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIvaaAg.Location = new System.Drawing.Point(715, 339);
@@ -114,6 +124,7 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblTotSinIva
             // 
+            this.lblTotSinIva.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblTotSinIva.AutoSize = true;
             this.lblTotSinIva.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotSinIva.Location = new System.Drawing.Point(714, 287);
@@ -125,6 +136,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblT
             // 
+            this.lblT.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblT.AutoSize = true;
             this.lblT.Location = new System.Drawing.Point(470, 413);
             this.lblT.Name = "lblT";
@@ -135,6 +149,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblTotSd
             // 
+            this.lblTotSd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTotSd.AutoSize = true;
             this.lblTotSd.Location = new System.Drawing.Point(470, 376);
             this.lblTotSd.Name = "lblTotSd";
@@ -145,6 +162,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblIvaAg
             // 
+            this.lblIvaAg.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblIvaAg.AutoSize = true;
             this.lblIvaAg.Location = new System.Drawing.Point(471, 339);
             this.lblIvaAg.Name = "lblIvaAg";
@@ -155,6 +175,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblTsI
             // 
+            this.lblTsI.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTsI.AutoSize = true;
             this.lblTsI.Location = new System.Drawing.Point(470, 298);
             this.lblTsI.Name = "lblTsI";
@@ -165,6 +188,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // txtNomPro
             // 
+            this.txtNomPro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNomPro.Enabled = false;
             this.txtNomPro.Location = new System.Drawing.Point(177, 285);
             this.txtNomPro.Name = "txtNomPro";
@@ -197,6 +223,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // txtCant
             // 
+            this.txtCant.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCant.Location = new System.Drawing.Point(177, 376);
             this.txtCant.Name = "txtCant";
             this.txtCant.Size = new System.Drawing.Size(212, 20);
@@ -205,6 +234,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // txtPrecProd
             // 
+            this.txtPrecProd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPrecProd.Location = new System.Drawing.Point(177, 332);
             this.txtPrecProd.Name = "txtPrecProd";
             this.txtPrecProd.Size = new System.Drawing.Size(212, 20);
@@ -213,6 +245,8 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // DtgvTabla
             // 
+            this.DtgvTabla.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.DtgvTabla.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DtgvTabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DtgvTabla.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -249,6 +283,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblCant
             // 
+            this.lblCant.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCant.AutoSize = true;
             this.lblCant.Location = new System.Drawing.Point(50, 376);
             this.lblCant.Name = "lblCant";
@@ -259,6 +296,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblPrecProd
             // 
+            this.lblPrecProd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrecProd.AutoSize = true;
             this.lblPrecProd.Location = new System.Drawing.Point(50, 332);
             this.lblPrecProd.Name = "lblPrecProd";
@@ -269,6 +309,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblNombProd
             // 
+            this.lblNombProd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNombProd.AutoSize = true;
             this.lblNombProd.Location = new System.Drawing.Point(50, 285);
             this.lblNombProd.Name = "lblNombProd";
@@ -279,6 +322,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblIVA
             // 
+            this.lblIVA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblIVA.AutoSize = true;
             this.lblIVA.Location = new System.Drawing.Point(50, 238);
             this.lblIVA.Name = "lblIVA";
@@ -289,6 +335,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // LblUsuario
             // 
+            this.LblUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.LblUsuario.AutoSize = true;
             this.LblUsuario.Location = new System.Drawing.Point(756, 29);
             this.LblUsuario.Name = "LblUsuario";
@@ -299,6 +348,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // lblTABLATITULO
             // 
+            this.lblTABLATITULO.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTABLATITULO.AutoSize = true;
             this.lblTABLATITULO.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTABLATITULO.Location = new System.Drawing.Point(160, 16);
@@ -310,6 +362,9 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // LblMostProd
             // 
+            this.LblMostProd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.LblMostProd.AutoSize = true;
             this.LblMostProd.Location = new System.Drawing.Point(640, 245);
             this.LblMostProd.Name = "LblMostProd";
@@ -322,6 +377,7 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(870, 483);
             this.Controls.Add(this.LblMostProd);
             this.Controls.Add(this.lblTotalPa);
@@ -348,6 +404,7 @@ namespace LaboratorioProgramacionUno.VISTA
             this.Controls.Add(this.lblUsuac);
             this.Controls.Add(this.lblTabladeDes);
             this.Name = "FrmOperaciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmOperaciones";
             this.Load += new System.EventHandler(this.FrmOperaciones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DtgvTabla)).EndInit();
